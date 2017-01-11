@@ -24,8 +24,10 @@ import java.util.Collection;
  * @time 10:37
  */
 
-public interface NOrm {
+public interface NOrm <T>{
 
+
+    T getOrm();
     /**
      * {@link #openOrCreateDatabase(String, android.database.sqlite.SQLiteDatabase.CursorFactory)}
      *
