@@ -1,6 +1,7 @@
 /build
 ### nym template
 *.iml
+ormLibrary.iml
 .gradle
 /local.properties
 /.idea/workspace.xml
